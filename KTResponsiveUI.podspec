@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'KTResponsiveUI'
-  s.version          = '0.1.0'
+  s.version          = '0.2.0'
   s.summary          = "KTResponsiveUI is a set of classes and extensions to build responsive UI's quickly."
 
 # This description is used to generate tags and improve search results.
