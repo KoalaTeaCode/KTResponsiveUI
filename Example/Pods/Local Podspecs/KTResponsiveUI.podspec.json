@@ -1,9 +1,9 @@
 {
   "name": "KTResponsiveUI",
   "version": "0.1.0",
-  "summary": "A short description of KTResponsiveUI.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/themisterholliday/KTResponsiveUI",
+  "summary": "KTResponsiveUI is a set of classes and extensions to build responsive UI's quickly.",
+  "description": "KTResponsiveUI is a set of classes and extensions to build responsive UI's quickly. This library is actively being worked on and will change drastically before 1.0.",
+  "homepage": "https://github.com/KoalaTeaCode/KTResponsiveUI",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,7 +12,7 @@
     "themisterholliday": "themisterholliday@gmail.com"
   },
   "source": {
-    "git": "https://github.com/themisterholliday/KTResponsiveUI.git",
+    "git": "https://github.com/KoalaTeaCode/KTResponsiveUI.git",
     "tag": "0.1.0"
   },
   "platforms": {
