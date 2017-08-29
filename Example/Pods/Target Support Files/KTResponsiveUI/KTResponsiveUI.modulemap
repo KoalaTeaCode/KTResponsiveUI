@@ -1,0 +1,6 @@
+framework module KTResponsiveUI {
+  umbrella header "KTResponsiveUI-umbrella.h"
+
+  export *
+  module * { export * }
+}

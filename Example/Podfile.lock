@@ -1,0 +1,16 @@
+PODS:
+  - KTResponsiveUI (0.1.0)
+
+DEPENDENCIES:
+  - KTResponsiveUI (from `../`)
+
+EXTERNAL SOURCES:
+  KTResponsiveUI:
+    :path: ../
+
+SPEC CHECKSUMS:
+  KTResponsiveUI: 117a2d2032dd210d8edfaa55f95ea0aa169f14ea
+
+PODFILE CHECKSUM: c53d7f27c8947b81407ea3208cb8f254eed9f2eb
+
+COCOAPODS: 1.3.0.rc.1
