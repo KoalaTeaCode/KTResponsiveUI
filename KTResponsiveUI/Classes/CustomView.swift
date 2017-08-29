@@ -6,7 +6,6 @@
 //  Copyright © 2017 CocoaPods. All rights reserved.
 //
 
-
 import UIKit
 
 // Protocol to make sure we have common function to use to layout subviews
@@ -56,8 +55,9 @@ public extension KTLayoutProtocol where Self: UIView {
     }
 }
 
+// Everything boiled down to a single extension
 extension UIView: KTLayoutProtocol {
-    public func performLayout() {}
+    open func performLayout() {}
 }
 
 // The main responsive view. Our bread and butter going forward
@@ -74,12 +74,12 @@ extension UIView: KTLayoutProtocol {
 //        set { self.frame.size.height = newValue }
 //    }
 //
-    // We also have custom width/height variables so we can set intrinsice content size
-    // This only helps when using StackViews (We'll cover that later)
+//    // We also have custom width/height variables so we can set intrinsice content size
+//    // This only helps when using StackViews (We'll cover that later)
 //    override public var intrinsicContentSize: CGSize {
 //        return CGSize(width: width, height: height)
 //    }
-//
+
     // Our custom init
     //  - Parameters:
     //      - origin: Point of origin (default is (0,0) like a grid)
