@@ -12,7 +12,6 @@ import UIKit
 // Protocol to make sure we have common function to use to layout subviews
 // This is easier than overriding init() in every class
 public protocol KTLayoutProtocol {
-    var newFrame: CGRect { get set }
     var width: CGFloat { get set }
     var height: CGFloat { get set }
     init()
@@ -20,10 +19,7 @@ public protocol KTLayoutProtocol {
 }
 
 public extension KTLayoutProtocol where Self: UIView {
-    var newFrame: CGRect {
-        get { return self.frame }
-        set { self.frame = newValue }
-    }
+    // Custom width and height variables to quickly return the frame's width and height instead of typing .frame.width every time
     var width: CGFloat {
         get { return self.frame.width }
         set { self.frame.size.width = newValue }
@@ -33,6 +29,13 @@ public extension KTLayoutProtocol where Self: UIView {
         set { self.frame.size.height = newValue }
     }
     
+    // Our custom init
+    //  - Parameters:
+    //      - origin: Point of origin (default is (0,0) like a grid)
+    //      - topInset: points from the top of immediate superview or origin when set (default is 0)
+    //      - leftInset: points from the left of immediate superview or origin when set (default is 0)
+    //      - width: width of view. Will be calculated using .scaleForScreenWidth Extension
+    //      - height: height of view. Will be calculated using .scaleForScreenHeight Extension
     init(origin: CGPoint = CGPoint(x: 0,y: 0),
                          topInset: CGFloat = 0,
                          leftInset: CGFloat = 0,
@@ -46,32 +49,22 @@ public extension KTLayoutProtocol where Self: UIView {
         let newFrame = CGRect(x: cx, y: cy, width: width.scaleForScreenWidth(), height: height.scaleForScreenHeight())
         
         self.init()
-        self.newFrame = newFrame
+        self.frame = newFrame
         self.width = width
         self.height = height
         self.performLayout()
     }
 }
 
-public class TestView: UIView, KTLayoutProtocol {
-    required public init() {
-        super.init(frame: .zero)
-    }
-    
-    required public init?(coder aDecoder: NSCoder) {
-        fatalError("init(coder:) has not been implemented")
-    }
-    
-    public func performLayout() {
-        
-    }
+extension UIView: KTLayoutProtocol {
+    public func performLayout() {}
 }
 
 // The main responsive view. Our bread and butter going forward
 //public class KTResponsiveView: UIView, KTLayoutProtocol {
 //    var newFrame: CGRect
 //
-//    // Custom width and height variables to quickly return the frame's width and height instead of typing .frame.width every time
+    // Custom width and height variables to quickly return the frame's width and height instead of typing .frame.width every time
 //    var width: CGFloat {
 //        get { return self.frame.width }
 //        set { self.frame.size.width = newValue }
@@ -81,19 +74,19 @@ public class TestView: UIView, KTLayoutProtocol {
 //        set { self.frame.size.height = newValue }
 //    }
 //
-//    // We also have custom width/height variables so we can set intrinsice content size
-//    // This only helps when using StackViews (We'll cover that later)
+    // We also have custom width/height variables so we can set intrinsice content size
+    // This only helps when using StackViews (We'll cover that later)
 //    override public var intrinsicContentSize: CGSize {
 //        return CGSize(width: width, height: height)
 //    }
 //
-//    // Our custom init
-//    //  - Parameters:
-//    //      - origin: Point of origin (default is (0,0) like a grid)
-//    //      - topInset: points from the top of immediate superview or origin when set (default is 0)
-//    //      - leftInset: points from the left of immediate superview or origin when set (default is 0)
-//    //      - width: width of view. Will be calculated using .scaleForScreenWidth Extension
-//    //      - height: height of view. Will be calculated using .scaleForScreenHeight Extension
+    // Our custom init
+    //  - Parameters:
+    //      - origin: Point of origin (default is (0,0) like a grid)
+    //      - topInset: points from the top of immediate superview or origin when set (default is 0)
+    //      - leftInset: points from the left of immediate superview or origin when set (default is 0)
+    //      - width: width of view. Will be calculated using .scaleForScreenWidth Extension
+    //      - height: height of view. Will be calculated using .scaleForScreenHeight Extension
 //    required public init(origin: CGPoint = CGPoint(x: 0,y: 0),
 //                  topInset: CGFloat = 0,
 //                  leftInset: CGFloat = 0,
