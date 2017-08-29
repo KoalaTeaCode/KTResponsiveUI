@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		16C2B6DF1F55DE2A0012C45B /* test.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16C2B6DE1F55DE2A0012C45B /* test.swift */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
@@ -28,6 +29,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		16C2B6DE1F55DE2A0012C45B /* test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = test.swift; sourceTree = "<group>"; };
 		1FF8B21F518FECDC06BCCE39 /* Pods-KTResponsiveUI_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KTResponsiveUI_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KTResponsiveUI_Tests/Pods-KTResponsiveUI_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		3E6790AAA4850A282EA8DF68 /* Pods-KTResponsiveUI_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KTResponsiveUI_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KTResponsiveUI_Example/Pods-KTResponsiveUI_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		4B9E48BAC67B291001019EB2 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
@@ -99,6 +101,7 @@
 				607FACDC1AFB9204008FA782 /* Images.xcassets */,
 				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
 				607FACD31AFB9204008FA782 /* Supporting Files */,
+				16C2B6DE1F55DE2A0012C45B /* test.swift */,
 			);
 			name = "Example for KTResponsiveUI";
 			path = KTResponsiveUI;
@@ -371,6 +374,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
+				16C2B6DF1F55DE2A0012C45B /* test.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
