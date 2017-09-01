@@ -11,23 +11,11 @@ import UIKit
 // Protocol to make sure we have common function to use to layout subviews
 // This is easier than overriding init() in every class
 public protocol KTLayoutProtocol {
-    var width: CGFloat { get set }
-    var height: CGFloat { get set }
     init()
     func performLayout()
 }
 
 public extension KTLayoutProtocol where Self: UIView {
-    // Custom width and height variables to quickly return the frame's width and height instead of typing .frame.width every time
-    var width: CGFloat {
-        get { return self.frame.width }
-        set { self.frame.size.width = newValue }
-    }
-    var height: CGFloat {
-        get { return self.frame.height }
-        set { self.frame.size.height = newValue }
-    }
-    
     // Our custom init
     //  - Parameters:
     //      - origin: Point of origin (default is (0,0) like a grid)
@@ -36,21 +24,35 @@ public extension KTLayoutProtocol where Self: UIView {
     //      - width: width of view. Will be calculated using .scaleForScreenWidth Extension
     //      - height: height of view. Will be calculated using .scaleForScreenHeight Extension
     init(origin: CGPoint = CGPoint(x: 0,y: 0),
-                         topInset: CGFloat = 0,
-                         leftInset: CGFloat = 0,
-                         width: CGFloat,
-                         height: CGFloat) {
+         topInset: CGFloat = 0,
+         leftInset: CGFloat = 0,
+         width: CGFloat = 0,
+         height: CGFloat = 0,
+         keepEqual: Bool = false) {
         
         // Calculate position of new frame
         let cx = origin.x + leftInset.scaleForScreenWidth()
         let cy = origin.y + topInset.scaleForScreenHeight()
+        
+        // Calculate width and height
+        var cWidth = width.scaleForScreenWidth()
+        var cHeight = height.scaleForScreenHeight()
+        
+        // Here we check if either width or height is 0 which we are assuming means that the variable that isn't 0 should be equal to the variable that has been set
+        if keepEqual {
+            if width == 0 {
+                cWidth = cHeight
+            }
+            if height == 0 {
+                cHeight = cWidth
+            }
+        }
+        
         // Create new frame
-        let newFrame = CGRect(x: cx, y: cy, width: width.scaleForScreenWidth(), height: height.scaleForScreenHeight())
+        let newFrame = CGRect(x: cx, y: cy, width: cWidth, height: cHeight)
         
         self.init()
         self.frame = newFrame
-        self.width = width
-        self.height = height
         self.performLayout()
     }
 }
