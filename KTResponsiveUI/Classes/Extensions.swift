@@ -6,75 +6,10 @@
 //  Copyright © 2017 CocoaPods. All rights reserved.
 //
 
-
 import UIKit
 
 let iphone7Height: CGFloat = 667.0
 let iphone7Width: CGFloat = 375.0
-
-public extension Int {
-    public func scaleForScreenHeight() -> CGFloat {
-        let screenHeight = UIScreen.main.bounds.height
-        let divisor: CGFloat = iphone7Height / CGFloat(self)
-        let calculatedHeight = screenHeight / divisor
-        return calculatedHeight
-    }
-    
-    public func scaleForScreenWidth() -> CGFloat {
-        let screenWidth = UIScreen.main.bounds.width
-        let divisor: CGFloat = iphone7Width / CGFloat(self)
-        let calculatedWidth = screenWidth / divisor
-        return calculatedWidth
-    }
-}
-
-public extension Double {
-    public func scaleForScreenHeight() -> CGFloat {
-        let screenHeight = UIScreen.main.bounds.height
-        let divisor: CGFloat = iphone7Height / CGFloat(self)
-        let calculatedHeight = screenHeight / divisor
-        return calculatedHeight
-    }
-    
-    public func scaleForScreenWidth() -> CGFloat {
-        let screenWidth = UIScreen.main.bounds.width
-        let divisor: CGFloat = iphone7Width / CGFloat(self)
-        let calculatedWidth = screenWidth / divisor
-        return calculatedWidth
-    }
-}
-
-public extension CGFloat {
-    public func scaleForScreenHeight() -> CGFloat {
-        let screenHeight = UIScreen.main.bounds.height
-        let divisor: CGFloat = iphone7Height / self
-        let calculatedHeight = screenHeight / divisor
-        return calculatedHeight
-    }
-    
-    public func scaleForScreenWidth() -> CGFloat {
-        let screenWidth = UIScreen.main.bounds.width
-        let divisor: CGFloat = iphone7Width / self
-        let calculatedWidth = screenWidth / divisor
-        return calculatedWidth
-    }
-}
-
-public extension Float {
-    public func scaleForScreenHeight() -> CGFloat {
-        let screenHeight = UIScreen.main.bounds.height
-        let divisor: CGFloat = iphone7Height / CGFloat(self)
-        let calculatedHeight = screenHeight / divisor
-        return calculatedHeight
-    }
-    
-    public func scaleForScreenWidth() -> CGFloat {
-        let screenWidth = UIScreen.main.bounds.width
-        let divisor: CGFloat = iphone7Width / CGFloat(self)
-        let calculatedWidth = screenWidth / divisor
-        return calculatedWidth
-    }
-}
 
 public extension UIView {
     public func topRightPoint() -> CGPoint {
@@ -107,6 +42,20 @@ public extension UIView {
     
     public func rightMidPoint() -> CGPoint {
         return CGPoint(x: self.frame.maxX, y: self.frame.midY)
+    }
+    
+    public class func getValueScaledByScreenHeightFor(baseValue: CGFloat) -> CGFloat {
+        let screenHeight = UIScreen.main.bounds.height
+        let divisor: CGFloat = iphone7Height / baseValue
+        let calculatedHeight = screenHeight / divisor
+        return calculatedHeight
+    }
+    
+    public class func getValueScaledByScreenWidthFor(baseValue: CGFloat) -> CGFloat {
+        let screenWidth = UIScreen.main.bounds.width
+        let divisor: CGFloat = iphone7Width / baseValue
+        let calculatedWidth = screenWidth / divisor
+        return calculatedWidth
     }
 }
 

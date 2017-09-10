@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		16035C0E1F633CDD0005B1CA /* TwitterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16035C0D1F633CDD0005B1CA /* TwitterView.swift */; };
+		16E0D53B1F63A63C00BFE72A /* TwitterButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16E0D53A1F63A63C00BFE72A /* TwitterButtonView.swift */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
@@ -28,6 +30,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		16035C0D1F633CDD0005B1CA /* TwitterView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TwitterView.swift; sourceTree = "<group>"; };
+		16E0D53A1F63A63C00BFE72A /* TwitterButtonView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TwitterButtonView.swift; sourceTree = "<group>"; };
 		1FF8B21F518FECDC06BCCE39 /* Pods-KTResponsiveUI_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KTResponsiveUI_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KTResponsiveUI_Tests/Pods-KTResponsiveUI_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		3E6790AAA4850A282EA8DF68 /* Pods-KTResponsiveUI_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KTResponsiveUI_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KTResponsiveUI_Example/Pods-KTResponsiveUI_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		4B9E48BAC67B291001019EB2 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
@@ -99,6 +103,8 @@
 				607FACDC1AFB9204008FA782 /* Images.xcassets */,
 				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
 				607FACD31AFB9204008FA782 /* Supporting Files */,
+				16035C0D1F633CDD0005B1CA /* TwitterView.swift */,
+				16E0D53A1F63A63C00BFE72A /* TwitterButtonView.swift */,
 			);
 			name = "Example for KTResponsiveUI";
 			path = KTResponsiveUI;
@@ -215,10 +221,12 @@
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = 6MS9QWALYV;
 						LastSwiftMigration = 0820;
 					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = 6MS9QWALYV;
 						LastSwiftMigration = 0820;
 						TestTargetID = 607FACCF1AFB9204008FA782;
 					};
@@ -353,10 +361,12 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-KTResponsiveUI_Example/Pods-KTResponsiveUI_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/KTResponsiveUI/KTResponsiveUI.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftIcons/SwiftIcons.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/KTResponsiveUI.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftIcons.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -370,6 +380,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				16E0D53B1F63A63C00BFE72A /* TwitterButtonView.swift in Sources */,
+				16035C0E1F633CDD0005B1CA /* TwitterView.swift in Sources */,
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
 			);
@@ -507,6 +519,7 @@
 			baseConfigurationReference = 3E6790AAA4850A282EA8DF68 /* Pods-KTResponsiveUI_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6MS9QWALYV;
 				INFOPLIST_FILE = KTResponsiveUI/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
@@ -521,6 +534,7 @@
 			baseConfigurationReference = 6BE796D921B7CCF42F4E28FA /* Pods-KTResponsiveUI_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6MS9QWALYV;
 				INFOPLIST_FILE = KTResponsiveUI/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
@@ -534,6 +548,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 1FF8B21F518FECDC06BCCE39 /* Pods-KTResponsiveUI_Tests.debug.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = 6MS9QWALYV;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -554,6 +569,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = D08581B43B9591080370BA1B /* Pods-KTResponsiveUI_Tests.release.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = 6MS9QWALYV;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",

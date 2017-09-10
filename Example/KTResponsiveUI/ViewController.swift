@@ -9,12 +9,11 @@
 import UIKit
 import KTResponsiveUI
 
-
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        let ktView = UIView(topInset: 10, leftInset: 10, width: 250, height: 250)
+        let ktView = UIView(leftInset: 10, topInset: 10,  width: 250, height: 250)
         ktView.backgroundColor = .red
         self.view.addSubview(ktView)
         
@@ -27,7 +26,7 @@ class ViewController: UIViewController {
         let _7 = UIView(origin: ktView.bottomLeftPoint(), width: 50, height: 50)
         let _8 = UIView(origin: ktView.bottomMidPoint(), width: 50, height: 50)
         let _9 = UIView(origin: ktView.bottomRightPoint(), width: 50, height: 50)
-        
+
         _1.backgroundColor = .yellow
         _2.backgroundColor = .yellow
         _3.backgroundColor = .yellow
@@ -47,6 +46,13 @@ class ViewController: UIViewController {
         self.view.addSubview(_7)
         self.view.addSubview(_8)
         self.view.addSubview(_9)
+        
+        self.title = "Home"
+        
+        let twitterView = TwitterView(origin: _7
+            .bottomLeftPoint(), width: 375)
+        self.view.addSubview(twitterView)
+        self.view.backgroundColor = .black
     }
 
     override func didReceiveMemoryWarning() {

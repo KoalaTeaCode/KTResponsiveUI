@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'KTResponsiveUI'
-  s.version          = '0.2.0'
+  s.version          = '0.2.2'
   s.summary          = "KTResponsiveUI is a set of classes and extensions to build responsive UI's quickly."
 
 # This description is used to generate tags and improve search results.
@@ -38,5 +38,5 @@ Pod::Spec.new do |s|
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.dependency 'SwiftIcons'
 end
