@@ -5,6 +5,9 @@
 [![License](https://img.shields.io/cocoapods/l/KTResponsiveUI.svg?style=flat)](http://cocoapods.org/pods/KTResponsiveUI)
 [![Platform](https://img.shields.io/cocoapods/p/KTResponsiveUI.svg?style=flat)](http://cocoapods.org/pods/KTResponsiveUI)
 
+## Screenshots
+![Imgur](https://i.imgur.com/7uJ5bTF.png)
+
 ## Example
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
