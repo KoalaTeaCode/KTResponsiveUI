@@ -6,7 +6,11 @@
 [![Platform](https://img.shields.io/cocoapods/p/KTResponsiveUI.svg?style=flat)](http://cocoapods.org/pods/KTResponsiveUI)
 
 ## Screenshots
-![Imgur](https://i.imgur.com/7uJ5bTF.png)
+Instagram Example:
+![Instagram](https://i.imgur.com/7uJ5bTF.png)
+
+Twitter Example:
+![Twitter](https://i.imgur.com/8JkvWRp.png)
 
 ## Example
 
