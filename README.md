@@ -5,6 +5,13 @@
 [![License](https://img.shields.io/cocoapods/l/KTResponsiveUI.svg?style=flat)](http://cocoapods.org/pods/KTResponsiveUI)
 [![Platform](https://img.shields.io/cocoapods/p/KTResponsiveUI.svg?style=flat)](http://cocoapods.org/pods/KTResponsiveUI)
 
+## Screenshots
+Instagram Example:
+![Instagram](https://i.imgur.com/7uJ5bTF.png)
+
+Twitter Example:
+![Twitter](https://i.imgur.com/8JkvWRp.png)
+
 ## Example
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
