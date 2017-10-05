@@ -39,15 +39,19 @@ class TwitterView: UIView {
         
         handleLabel = UILabel(origin: nameLabel.topRightPoint(), leftInset: 2, height: 17)
         handleLabel.textColor = UIColor(red:0.53, green:0.60, blue:0.65, alpha:1.0)
+        handleLabel.font = UIFont.boldSystemFont(ofSize: fontSize)
+        self.addSubview(handleLabel)
+        
         handleLabel.text = "@TheMrHolliday"
         handleLabel.sizeToFit()
-        self.addSubview(handleLabel)
         
         timeLabel = UILabel(origin: handleLabel.topRightPoint(), leftInset: 2, height: 17)
         timeLabel.textColor = UIColor(red:0.53, green:0.60, blue:0.65, alpha:1.0)
+        timeLabel.font = UIFont.boldSystemFont(ofSize: fontSize)
+        self.addSubview(timeLabel)
+        
         timeLabel.text = " - 12h"
         timeLabel.sizeToFit()
-        self.addSubview(timeLabel)
         
         let width = UIView.getValueScaledByScreenWidthFor(baseValue: 375)
         let totalWidth = timeLabel.topRightPoint().x
@@ -61,14 +65,15 @@ class TwitterView: UIView {
         tweetLabel = UILabel(origin: nameLabel.bottomLeftPoint(), topInset: 2, width: 278)
         tweetLabel.textColor = .white
         tweetLabel.font = UIFont.systemFont(ofSize: fontSize)
-        tweetLabel.text = "Just watched 'The Big Sick'. One of the most original films in years. You all need to see it. That is all 🍿95 Popcorns"
         tweetLabel.numberOfLines = 0
-        tweetLabel.sizeToFit()
         self.addSubview(tweetLabel)
+        
+        tweetLabel.text = "Just watched 'The Big Sick'. One of the most original films in years. You all need to see it. That is all 🍿95 Popcorns"
+        tweetLabel.sizeToFit()
         
         buttonView = TwitterButtonView(origin: tweetLabel.bottomLeftPoint(), topInset: 12, width: tweetLabel.frame.width, height: 18)
         self.addSubview(buttonView)
-        
+
         self.frame.size.height = buttonView.bottomLeftPoint().y + UIView.getValueScaledByScreenHeightFor(baseValue: 10)
         
         self.backgroundColor = UIColor(red:0.11, green:0.16, blue:0.21, alpha:1.0)

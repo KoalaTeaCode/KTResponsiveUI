@@ -218,7 +218,7 @@ public extension KTLayoutProtocol where Self: UIView {
                   leftInset: 0,
                   topInset: 0,
                   width: width,
-                  height: 0,
+                  height: height,
                   keepEqual: false)
     }
     init(origin: CGPoint, width: CGFloat, height: CGFloat) {

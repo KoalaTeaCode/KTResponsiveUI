@@ -20,8 +20,8 @@ class TwitterButtonView: UIView {
         let greenRetweetColor = UIColor(red: 0.09, green: 0.75, blue: 0.39, alpha: 1.0)
         let heartColor = UIColor(red: 0.88, green: 0.14, blue: 0.37, alpha: 1.0)
         
-        let buttonHeight = UIView.getValueScaledByScreenHeightFor(baseValue: 18)
-        let iconSize = buttonHeight - UIView.getValueScaledByScreenHeightFor(baseValue: 2)
+        let buttonHeight: CGFloat = 18
+        let iconSize = UIView.getValueScaledByScreenHeightFor(baseValue: 18) - UIView.getValueScaledByScreenHeightFor(baseValue: 2)
         let buttonColor = UIColor(red: 0.53, green: 0.60, blue: 0.65, alpha: 1.0)
         
         commentButton = UIButton(height: buttonHeight)
