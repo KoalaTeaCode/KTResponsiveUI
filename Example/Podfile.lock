@@ -1,5 +1,5 @@
 PODS:
-  - KTResponsiveUI (0.2.0):
+  - KTResponsiveUI (0.2.4):
     - SwiftIcons
   - SwiftIcons (1.5.1)
 
@@ -11,7 +11,7 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  KTResponsiveUI: 03ab7744d31a5c0ad257f0b1b446dc3da5cf7c98
+  KTResponsiveUI: 5be9442e105e564b8a0db28003897ad75c7047c0
   SwiftIcons: 287593643898af5a9ef16be4b1f9cf91a436cbc7
 
 PODFILE CHECKSUM: c53d7f27c8947b81407ea3208cb8f254eed9f2eb
