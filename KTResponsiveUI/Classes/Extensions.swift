@@ -46,7 +46,11 @@ public extension UIView {
     
     public class func getValueScaledByScreenHeightFor(baseValue: CGFloat) -> CGFloat {
         let screenHeight = UIScreen.main.bounds.height
-        let divisor: CGFloat = iphone7Height / baseValue
+        var divisor: CGFloat = iphone7Height / baseValue
+        // If screen height is over the iPlus height we need to adjust the divisor by 1.3
+        if screenHeight > 736 {
+            divisor = divisor / 1.3
+        }
         let calculatedHeight = screenHeight / divisor
         return calculatedHeight
     }
