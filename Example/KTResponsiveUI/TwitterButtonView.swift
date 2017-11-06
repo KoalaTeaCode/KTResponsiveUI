@@ -8,7 +8,6 @@
 
 import UIKit
 import KTResponsiveUI
-import SwiftIcons
 
 class TwitterButtonView: UIView {
     var commentButton: UIButton!
@@ -47,19 +46,19 @@ class TwitterButtonView: UIView {
         self.addSubview(messageButton)
     }
     
-    func commentButtonPressed() {
+    @objc func commentButtonPressed() {
         commentButton.isSelected = !commentButton.isSelected
     }
     
-    func retweetButtonPressed() {
+    @objc func retweetButtonPressed() {
         retweetButton.isSelected = !retweetButton.isSelected
     }
     
-    func favoriteButtonPressed() {
+    @objc func favoriteButtonPressed() {
         favoriteButton.isSelected = !favoriteButton.isSelected
     }
     
-    func messageButtonPressed() {
+    @objc func messageButtonPressed() {
         messageButton.isSelected = !messageButton.isSelected
     }
 }

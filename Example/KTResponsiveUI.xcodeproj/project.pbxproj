@@ -8,6 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		16035C0E1F633CDD0005B1CA /* TwitterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16035C0D1F633CDD0005B1CA /* TwitterView.swift */; };
+		1693C2C91FB0061B007100C4 /* Dripicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 166707DC1FB0057400364E06 /* Dripicons.ttf */; };
+		1693C2CA1FB0061B007100C4 /* Emoji.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 166707DD1FB0057400364E06 /* Emoji.ttf */; };
+		1693C2CB1FB0061B007100C4 /* FontAwesome.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 166707DE1FB0057400364E06 /* FontAwesome.ttf */; };
+		1693C2CC1FB0061B007100C4 /* Icofont.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 166707DF1FB0057400364E06 /* Icofont.ttf */; };
+		1693C2CD1FB0061B007100C4 /* Ionicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 166707E01FB0057400364E06 /* Ionicons.ttf */; };
+		1693C2CE1FB0061B007100C4 /* Linearicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 166707E11FB0057400364E06 /* Linearicons.ttf */; };
+		1693C2CF1FB0061B007100C4 /* MapIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 166707E21FB0057400364E06 /* MapIcons.ttf */; };
+		1693C2D01FB0061B007100C4 /* MaterialIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 166707E31FB0057400364E06 /* MaterialIcons.ttf */; };
+		1693C2D11FB0061B007100C4 /* OpenIconic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 166707E41FB0057400364E06 /* OpenIconic.ttf */; };
+		1693C2D21FB0061B007100C4 /* Stateface.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 166707E51FB0057400364E06 /* Stateface.ttf */; };
+		1693C2D31FB0061B007100C4 /* SwiftIcons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 166707E61FB0057400364E06 /* SwiftIcons.swift */; };
+		1693C2D41FB0061B007100C4 /* WeatherIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 166707E71FB0057400364E06 /* WeatherIcons.ttf */; };
 		16E0D53B1F63A63C00BFE72A /* TwitterButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16E0D53A1F63A63C00BFE72A /* TwitterButtonView.swift */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
@@ -31,6 +43,18 @@
 
 /* Begin PBXFileReference section */
 		16035C0D1F633CDD0005B1CA /* TwitterView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TwitterView.swift; sourceTree = "<group>"; };
+		166707DC1FB0057400364E06 /* Dripicons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Dripicons.ttf; sourceTree = "<group>"; };
+		166707DD1FB0057400364E06 /* Emoji.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Emoji.ttf; sourceTree = "<group>"; };
+		166707DE1FB0057400364E06 /* FontAwesome.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = FontAwesome.ttf; sourceTree = "<group>"; };
+		166707DF1FB0057400364E06 /* Icofont.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Icofont.ttf; sourceTree = "<group>"; };
+		166707E01FB0057400364E06 /* Ionicons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Ionicons.ttf; sourceTree = "<group>"; };
+		166707E11FB0057400364E06 /* Linearicons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Linearicons.ttf; sourceTree = "<group>"; };
+		166707E21FB0057400364E06 /* MapIcons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = MapIcons.ttf; sourceTree = "<group>"; };
+		166707E31FB0057400364E06 /* MaterialIcons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = MaterialIcons.ttf; sourceTree = "<group>"; };
+		166707E41FB0057400364E06 /* OpenIconic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = OpenIconic.ttf; sourceTree = "<group>"; };
+		166707E51FB0057400364E06 /* Stateface.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Stateface.ttf; sourceTree = "<group>"; };
+		166707E61FB0057400364E06 /* SwiftIcons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftIcons.swift; sourceTree = "<group>"; };
+		166707E71FB0057400364E06 /* WeatherIcons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = WeatherIcons.ttf; sourceTree = "<group>"; };
 		16E0D53A1F63A63C00BFE72A /* TwitterButtonView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TwitterButtonView.swift; sourceTree = "<group>"; };
 		1FF8B21F518FECDC06BCCE39 /* Pods-KTResponsiveUI_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KTResponsiveUI_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KTResponsiveUI_Tests/Pods-KTResponsiveUI_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		3E6790AAA4850A282EA8DF68 /* Pods-KTResponsiveUI_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KTResponsiveUI_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KTResponsiveUI_Example/Pods-KTResponsiveUI_Example.debug.xcconfig"; sourceTree = "<group>"; };
@@ -73,6 +97,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		166707DB1FB0057400364E06 /* SwiftIcons */ = {
+			isa = PBXGroup;
+			children = (
+				166707DC1FB0057400364E06 /* Dripicons.ttf */,
+				166707DD1FB0057400364E06 /* Emoji.ttf */,
+				166707DE1FB0057400364E06 /* FontAwesome.ttf */,
+				166707DF1FB0057400364E06 /* Icofont.ttf */,
+				166707E01FB0057400364E06 /* Ionicons.ttf */,
+				166707E11FB0057400364E06 /* Linearicons.ttf */,
+				166707E21FB0057400364E06 /* MapIcons.ttf */,
+				166707E31FB0057400364E06 /* MaterialIcons.ttf */,
+				166707E41FB0057400364E06 /* OpenIconic.ttf */,
+				166707E51FB0057400364E06 /* Stateface.ttf */,
+				166707E61FB0057400364E06 /* SwiftIcons.swift */,
+				166707E71FB0057400364E06 /* WeatherIcons.ttf */,
+			);
+			path = SwiftIcons;
+			sourceTree = SOURCE_ROOT;
+		};
 		607FACC71AFB9204008FA782 = {
 			isa = PBXGroup;
 			children = (
@@ -97,6 +140,7 @@
 		607FACD21AFB9204008FA782 /* Example for KTResponsiveUI */ = {
 			isa = PBXGroup;
 			children = (
+				166707DB1FB0057400364E06 /* SwiftIcons */,
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
 				607FACD71AFB9204008FA782 /* ViewController.swift */,
 				607FACD91AFB9204008FA782 /* Main.storyboard */,
@@ -216,18 +260,18 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0720;
-				LastUpgradeCheck = 0820;
+				LastUpgradeCheck = 0900;
 				ORGANIZATIONNAME = CocoaPods;
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
 						DevelopmentTeam = 6MS9QWALYV;
-						LastSwiftMigration = 0820;
+						LastSwiftMigration = 0900;
 					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
 						DevelopmentTeam = 6MS9QWALYV;
-						LastSwiftMigration = 0820;
+						LastSwiftMigration = 0900;
 						TestTargetID = 607FACCF1AFB9204008FA782;
 					};
 				};
@@ -256,9 +300,20 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1693C2C91FB0061B007100C4 /* Dripicons.ttf in Resources */,
 				607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */,
+				1693C2CF1FB0061B007100C4 /* MapIcons.ttf in Resources */,
+				1693C2CD1FB0061B007100C4 /* Ionicons.ttf in Resources */,
+				1693C2D41FB0061B007100C4 /* WeatherIcons.ttf in Resources */,
+				1693C2CA1FB0061B007100C4 /* Emoji.ttf in Resources */,
+				1693C2CC1FB0061B007100C4 /* Icofont.ttf in Resources */,
+				1693C2D01FB0061B007100C4 /* MaterialIcons.ttf in Resources */,
 				607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */,
+				1693C2D21FB0061B007100C4 /* Stateface.ttf in Resources */,
+				1693C2CE1FB0061B007100C4 /* Linearicons.ttf in Resources */,
+				1693C2D11FB0061B007100C4 /* OpenIconic.ttf in Resources */,
 				607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */,
+				1693C2CB1FB0061B007100C4 /* FontAwesome.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -361,12 +416,10 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-KTResponsiveUI_Example/Pods-KTResponsiveUI_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/KTResponsiveUI/KTResponsiveUI.framework",
-				"${BUILT_PRODUCTS_DIR}/SwiftIcons/SwiftIcons.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/KTResponsiveUI.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftIcons.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -381,6 +434,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				16E0D53B1F63A63C00BFE72A /* TwitterButtonView.swift in Sources */,
+				1693C2D31FB0061B007100C4 /* SwiftIcons.swift in Sources */,
 				16035C0E1F633CDD0005B1CA /* TwitterView.swift in Sources */,
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
@@ -433,14 +487,20 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -481,14 +541,20 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -525,7 +591,8 @@
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -541,7 +608,8 @@
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -563,7 +631,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Debug;
 		};
@@ -580,7 +649,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Release;
 		};
