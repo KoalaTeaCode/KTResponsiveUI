@@ -31,7 +31,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		02A0E3E95969FFE4244693C55A1D5874 /* Pods_KTResponsiveUI_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KTResponsiveUI_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		02A0E3E95969FFE4244693C55A1D5874 /* Pods_KTResponsiveUI_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_KTResponsiveUI_Example.framework; path = "Pods-KTResponsiveUI_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		106C310BDD1899863D94BF4FC35126A2 /* Pods-KTResponsiveUI_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-KTResponsiveUI_Tests-dummy.m"; sourceTree = "<group>"; };
 		1C2D83C456C033CAE39AE7583CE9C442 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		233F876B9F75085B30C467DB170E6ED6 /* Pods-KTResponsiveUI_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KTResponsiveUI_Tests-frameworks.sh"; sourceTree = "<group>"; };
@@ -39,28 +39,28 @@
 		237592AE42E1DD7B45652E042B2CC0D6 /* Pods-KTResponsiveUI_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KTResponsiveUI_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		283F4A12EE79C3D4DC9CED60A959E441 /* KTResponsiveUI-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KTResponsiveUI-umbrella.h"; sourceTree = "<group>"; };
 		2C2ED8F9364129B15F2A209861034B15 /* Pods-KTResponsiveUI_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KTResponsiveUI_Example-resources.sh"; sourceTree = "<group>"; };
-		3042F8522148FC0D6830FFE6E420BF33 /* KTResponsiveUI.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = KTResponsiveUI.modulemap; sourceTree = "<group>"; };
+		3042F8522148FC0D6830FFE6E420BF33 /* KTResponsiveUI.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = KTResponsiveUI.modulemap; sourceTree = "<group>"; };
 		3D2711B1EDB10D27A2789BF3919F5A37 /* Pods-KTResponsiveUI_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-KTResponsiveUI_Example-umbrella.h"; sourceTree = "<group>"; };
 		4036AD129707F13984EBAD5D253B8C9A /* Pods-KTResponsiveUI_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-KTResponsiveUI_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		404925D6A29A70A77DB042977BEEB8B9 /* Pods-KTResponsiveUI_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KTResponsiveUI_Tests-resources.sh"; sourceTree = "<group>"; };
 		4AAFCE8797C537A396AFDD933D5A1D8C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4B96EAF7141598C7E4091367C05BAD12 /* Pods-KTResponsiveUI_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-KTResponsiveUI_Tests.modulemap"; sourceTree = "<group>"; };
+		4B96EAF7141598C7E4091367C05BAD12 /* Pods-KTResponsiveUI_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-KTResponsiveUI_Tests.modulemap"; sourceTree = "<group>"; };
 		61E0CD91CE67042847FB1027318A2AD7 /* Pods-KTResponsiveUI_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-KTResponsiveUI_Example-dummy.m"; sourceTree = "<group>"; };
-		6464C4870D367554140ABAB5D95D707D /* Pods-KTResponsiveUI_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-KTResponsiveUI_Example.modulemap"; sourceTree = "<group>"; };
+		6464C4870D367554140ABAB5D95D707D /* Pods-KTResponsiveUI_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-KTResponsiveUI_Example.modulemap"; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		6B82CD755B899C9D08C9E99D5E25A664 /* Pods-KTResponsiveUI_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KTResponsiveUI_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		6CDDE5472E191FD1685D35DD635E1FCD /* Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Extensions.swift; path = KTResponsiveUI/Classes/Extensions.swift; sourceTree = "<group>"; };
 		768CD14B1EB461B2E844DAF57FF7438D /* Pods-KTResponsiveUI_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KTResponsiveUI_Example-frameworks.sh"; sourceTree = "<group>"; };
 		7E4163AE2ED7615FBF848854927B435A /* Pods-KTResponsiveUI_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-KTResponsiveUI_Tests-umbrella.h"; sourceTree = "<group>"; };
 		8293C5CAD8B92E21B9C0F5C060B6F3C3 /* KTResponsiveUI-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KTResponsiveUI-prefix.pch"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		97C16873DEBBBEA080490E404A2233D8 /* Pods-KTResponsiveUI_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-KTResponsiveUI_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		9D3740D15C9D5BBC2DEB8C93E1ACE95C /* Pods_KTResponsiveUI_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KTResponsiveUI_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D3740D15C9D5BBC2DEB8C93E1ACE95C /* Pods_KTResponsiveUI_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_KTResponsiveUI_Tests.framework; path = "Pods-KTResponsiveUI_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D7EC1D1A094475CD2D92DA140CB5DE5 /* Pods-KTResponsiveUI_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KTResponsiveUI_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		A2FBCB22696616AC15E57D02E5AE2A96 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D37E2E7937F61247FBC2B696E22933FB /* KTResponsiveUI.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KTResponsiveUI.xcconfig; sourceTree = "<group>"; };
 		D5D3459C8E04639BC6E1F80218323336 /* Pods-KTResponsiveUI_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KTResponsiveUI_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		DDF84A0C937CD9A19D317668EB291557 /* KTResponsiveUI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = KTResponsiveUI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDF84A0C937CD9A19D317668EB291557 /* KTResponsiveUI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = KTResponsiveUI.framework; path = KTResponsiveUI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4E37DEC0725B8316B5B0874850742C3 /* Pods-KTResponsiveUI_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KTResponsiveUI_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		EE20F313860BB3700248B851F957377C /* KTResponsiveUI-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "KTResponsiveUI-dummy.m"; sourceTree = "<group>"; };
 		FAB013377F93EEE7209EAF4CA3F08A6A /* UIViewExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIViewExtensions.swift; path = KTResponsiveUI/Classes/UIViewExtensions.swift; sourceTree = "<group>"; };
@@ -298,12 +298,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0830;
-				LastUpgradeCheck = 0900;
-				TargetAttributes = {
-					576F4340ED3A376555831A09210CC670 = {
-						LastSwiftMigration = 0900;
-					};
-				};
+				LastUpgradeCheck = 0700;
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -423,7 +418,7 @@
 			};
 			name = Debug;
 		};
-		1FF6AFBF9A5EA410C282B5B5A3FCAD31 /* Debug */ = {
+		26B939006331B6D6C4EFAEF2683CA3B0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = D37E2E7937F61247FBC2B696E22933FB /* KTResponsiveUI.xcconfig */;
 			buildSettings = {
@@ -447,7 +442,6 @@
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_SWIFT3_OBJC_INFERENCE = On;
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
@@ -455,7 +449,7 @@
 			};
 			name = Debug;
 		};
-		4E7769F17AD591B3F03AD1C84189BC4C /* Release */ = {
+		514130394A9AD9DAB96C25B5AA5095D0 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = D37E2E7937F61247FBC2B696E22933FB /* KTResponsiveUI.xcconfig */;
 			buildSettings = {
@@ -479,7 +473,6 @@
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_SWIFT3_OBJC_INFERENCE = On;
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -539,7 +532,6 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Release;
@@ -710,8 +702,8 @@
 		DBA683B6ADF4A6855A1C7D710F14418B /* Build configuration list for PBXNativeTarget "KTResponsiveUI" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1FF6AFBF9A5EA410C282B5B5A3FCAD31 /* Debug */,
-				4E7769F17AD591B3F03AD1C84189BC4C /* Release */,
+				26B939006331B6D6C4EFAEF2683CA3B0 /* Debug */,
+				514130394A9AD9DAB96C25B5AA5095D0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

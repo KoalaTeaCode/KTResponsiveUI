@@ -1,5 +1,5 @@
 PODS:
-  - KTResponsiveUI (0.2.5)
+  - KTResponsiveUI (0.2.6)
 
 DEPENDENCIES:
   - KTResponsiveUI (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  KTResponsiveUI: 9c7e50e5d1eef8cba1df57f762b9c6b3a894841c
+  KTResponsiveUI: 98c704f841b96bd1f637e0b6b20c694a3a70a26e
 
 PODFILE CHECKSUM: c53d7f27c8947b81407ea3208cb8f254eed9f2eb
 

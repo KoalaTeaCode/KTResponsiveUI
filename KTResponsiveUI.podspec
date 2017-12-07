@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'KTResponsiveUI'
-  s.version          = '0.2.5'
+  s.version          = '0.2.6'
   s.summary          = "KTResponsiveUI is a set of classes and extensions to build responsive UI's quickly."
 
 # This description is used to generate tags and improve search results.
@@ -30,7 +30,7 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'KTResponsiveUI/Classes/**/*'
+  s.source_files = 'KTResponsiveUI/Classes/**/*.swift'
   
   # s.resource_bundles = {
   #   'KTResponsiveUI' => ['KTResponsiveUI/Assets/*.png']
